@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Bee",
+  "main": "server.js",
+  "type": "module",
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "start": "nodemon server",
+    "server": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.3.0",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "ioredis": "^5.2.4",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "web3": "^1.8.2",
+    "yarn": "^1.22.19"
+  }
+}
