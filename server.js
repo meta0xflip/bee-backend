@@ -21,7 +21,7 @@ const BN = Web3.utils.BN;
 const url = "https://matic-mumbai.chainstacklabs.com/v1/80001";
 const web3 = new Web3("https://matic-mumbai.chainstacklabs.com");
 const privateKey =
-    "562fe359510311a13a65de99e89b311d21f38f569585b3e4a13f70db88dab8cb";
+    "";
 const account = web3.eth.accounts.privateKeyToAccount(privateKey);
 const contractAddress = "0xDa255B4C7dDCA32d6A181321d62d99e84B6402a9";
 const honeyAddress = "0x60AE9954EbBB9DFC3Ed80f91877169F419A689c8";
